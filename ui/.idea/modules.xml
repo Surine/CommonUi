@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1699612897/Practicer.iml" filepath="$PROJECT_DIR$/.idea/modules/-1699612897/Practicer.iml" group="Practicer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1957308209/app.iml" filepath="$PROJECT_DIR$/.idea/modules/1957308209/app.iml" group="Practicer/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui.iml" filepath="$PROJECT_DIR$/.idea/modules/ui.iml" group="Practicer/ui" />
+    </modules>
+  </component>
+</project>
