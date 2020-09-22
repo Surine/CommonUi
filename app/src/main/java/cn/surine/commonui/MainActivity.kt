@@ -14,15 +14,27 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setting(root){
             group {
-                item("点击弹出"){
-                    dialog(message = "这是一个对话框"){
-                        positive {
-                            Log.d("slw", "info: ");
-                        }
+                item("普通Item演示","点击打开对话框"){
+                    dialog { 
+                        
                     }
                 }
-                switchItem("标题","打开","关闭",true,"1"){
+                switchItem("开关演示","当前已打开","当前已关闭",true,"tag"){
                     view, isChecked ->
+//                    if(isChecked) Toast.makeText(this, "", Toast.LENGTH_SHORT).show()
+                }
+                sliderItem("标题","副标题"){
+                    view, value ->
+                }
+                selector(normalSelect = intArrayOf(0),mutiSelect = false,tag = "selector",element = {
+                    selectItem("标题","副标题")
+                    selectItem("标题","副标题")
+                    selectItem("标题","副标题")
+                }){
+                    //选择结果
+                }
+                view(R.layout.activity_main){
+                    view ->
                 }
             }
         }
