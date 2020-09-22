@@ -21,7 +21,11 @@
 ## 使用
 
 ```
-//gradle待完善
+//project gradle
+maven { url 'https://jitpack.io' }
+
+//app gradle
+implementation 'com.github.Surine:CommonUi:1.0.0'
 ```
 
 ### 通用Setting
